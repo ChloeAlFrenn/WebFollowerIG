@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(83, 67, 95);
+    font-family: 'Raleway';
+    margin: 0px;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 1%;
+    font-family: 'Raleway';
+}
+
+input{
+    display: none;
+}
+
+label{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+i {
+    color:  rgb(83, 67, 95);
+}
+
+.div1{
+    text-align:center;
+    padding: 1%;
+    border: thin solid black;
+    margin-bottom: 2%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.div2{
+    
+    text-align:center;
+}
+
+.buttonStyle{
+    background-color:rgb(83, 67, 95);
+    color: white;
+    font-size: 20px;
+    padding: 1%;
+    margin-bottom: 2%;
+    margin-right: 25%;
+    margin-left: 25%;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Raleway';
+}
+
+.buttonStyle:hover{
+    background-color:rgb(131, 116, 143);
+    cursor: pointer;
+}
+
+.section1{
+    background-color: rgb(83, 67, 95);
+    color: white;
+    font-family: 'Quicksand';
+    padding: 1%
+}
+
+.section2{
+    background-color: white ;
+    padding: 2px 20px;
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color:rgb(83, 67, 95);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Raleway';
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: rgb(131, 116, 143);
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }

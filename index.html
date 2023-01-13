@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>who doesn't follow you back on ig</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+</head>
+<body>
+    <section class="section1">
+        <h1> Find out who does not follow you back </h1>
+        <p> This website is designed to help you figure out who doesn't follow you back on instagram. All you have to do is sumbit your follower and following files in the JSON format in the designed sections! </p>
+    </section>
+
+    <section class="section2">   
+        <h2> Sumbit your files here: </h2>
+        <input 
+        type="file" 
+        id="followerInput" name = "followerInput"
+        accept=".json"
+        class="inputfile"
+        >
+
+        <div class="div1">
+            <label for="followerInput"> 
+                <i class="material-icons" style="font-size: 40px;"> upload </i>
+                <br>
+                Click here to sumbit the follower file
+            </label>  
+        </div>
+
+        <input 
+        type="file" 
+        id="followingInput" name = "followingInput"
+        accept=".json"
+        class="inputfile"
+        >
+
+
+        <div class="div1">
+            <label for="followingInput"> 
+                <i class="material-icons" style="font-size: 40px;"> upload </i>
+                <br>
+                Click here to sumbit the following file
+            </label>  
+        </div>
+
+        <button class="buttonStyle" id="myButton">Click me once your files are sumbitted</button>
+    
+        <h3 class="hidden" id="hiddenText">These are the users not following you back:</h3>
+        <div class="div2" id="textUser"></div>
+    </section>
+
+
+    <button type="button" class="collapsible"> How to get the files from instagram ? </button>
+    <div class="content">
+        <p> Here are the steps to get the files from instagram: 
+            <ol>
+                <li>Log into instagram on your web browser</li>
+                <li>Go to your settings</li>
+                <li>Click Privacy and security</li>
+                <li>Go to Data download and click Request download</li>
+                <li>Select the JSON format </li>
+                <li>Fill out all the necessary information</li>
+                <li>Once you receive your data select the follower.json and following.json to sumbit them in the website</li>
+              </ol>
+        </p>
+    </div>
+   
+    <script src="main.js"></script>
+</body>
+</html>
